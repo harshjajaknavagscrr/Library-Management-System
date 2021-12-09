@@ -1,0 +1,457 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for i686-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Dec 09 22:32:03 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 21)
+SRC := src
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 48)
+INCLUDES := -Iinclude
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\ 
+,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Library Management System
+# default
+SHELL := sh.exe
+# makefile (from 'Makefile', line 35)
+RM := del /q /f
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.1\bin;
+# environment
+ONEDRIVE = C:\Users\ASUS\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\ASUS\AppData\Local\Temp
+# makefile (from 'Makefile', line 54)
+SOURCES := src/FileManagement.cpp src/main.cpp src/Student.cpp src/CSE.cpp src/Book.cpp src/ECE.cpp src/Chemical.cpp src/Admin.cpp src/Mechanical.cpp src/Electrical.cpp src/User.cpp src/Civil.cpp
+# makefile (from 'Makefile', line 10)
+CXXFLAGS := -std=c++17 -Wall -Wextra -g
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-51917651-9e8f-46e1-86f7-eabe83739a18-sock
+# environment
+VSCODE_CWD = C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := i686-w64-mingw32
+# environment
+PATH = C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\GnuWin32\bin;C:\TDM-GCC-64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\nodejs;C:\Users\ASUS\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\ASUS\AppData\Local\Programs\Python\Python38\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ASUS\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\ASUS\AppData\Local\Programs\Python\Python37\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\GnuWin32\bin;C:\Dev-Cpp\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.1\bin;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Local\atom\bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\ASUS\AppData\Local\GitHubDesktop\bin;C:\Windows\System32;C:\MinGW-64\mingw32\bin;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'Makefile', line 36)
+MD := mkdir
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\ASUS
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 33)
+LIBDIRS := lib
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 27)
+LIB := lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14796_QAHHWRPTEMZFEHKP
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = LAPTOP-F5OF9SN8
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# makefile (from 'Makefile', line 65)
+OUTPUTMAIN := output\main.exe
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = ASUS
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\ASUS\AppData\Roaming\Code\CachedData\7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\LAPTOP-F5OF9SN8
+# makefile (from 'Makefile', line 32)
+INCLUDEDIRS := include
+# environment
+ONEDRIVECONSUMER = C:\Users\ASUS\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = LAPTOP-F5OF9SN8
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 34)
+FIXPATH = $(subst /,\,$1)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 24)
+INCLUDE := include
+# makefile (from 'Makefile', line 31)
+SOURCEDIRS := src
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# makefile (from 'Makefile', line 15)
+LFLAGS = 
+# environment
+LOCALAPPDATA = C:\Users\ASUS\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\91424adb9bf4556c76f3f7464c71b567-1.63.0-main-sock
+# environment
+FLEX = C:\Program Files (x86)\CodeBlocks\MinGW\bin
+# environment
+HOMEPATH = \Users\ASUS
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# makefile (from 'Makefile', line 30)
+MAIN := main.exe
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\ASUS\AppData\Roaming
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
+# environment
+TEMP = C:\Users\ASUS\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# makefile (from 'Makefile', line 18)
+OUTPUT := output
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 7)
+CXX = g++
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 51)
+LIBS := -Llib
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0a
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 57)
+OBJECTS := src/FileManagement.o src/main.o src/Student.o src/CSE.o src/Book.o src/ECE.o src/Chemical.o src/Admin.o src/Mechanical.o src/Electrical.o src/User.o src/Civil.o
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 14796
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-F5OF9SN8
+# variable set hash-table stats:
+# Load=114/1024=11%, Rehash=0, Collisions=17/162=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Library Management System, mtime 1638842936): 11 files, no impossibilities.
+# src (key c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Library Management System/src, mtime 1638842936): 38 files, no impossibilities.
+
+# 49 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+src/Admin.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Electrical.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+all: output main.exe
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/10=0%
+#  recipe to execute (from 'Makefile', line 68):
+	@echo Executing 'all' complete!
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+main.exe: src/FileManagement.o src/main.o src/Student.o src/CSE.o src/Book.o src/ECE.o src/Chemical.o src/Admin.o src/Mechanical.o src/Electrical.o src/User.o src/Civil.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := main.exe
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := src/FileManagement.o src/main.o src/Student.o src/CSE.o src/Book.o src/ECE.o src/Chemical.o src/Admin.o src/Mechanical.o src/Electrical.o src/User.o src/Civil.o
+# automatic
+# | := 
+# automatic
+# < := src/FileManagement.o
+# automatic
+# ^ := src/FileManagement.o src/main.o src/Student.o src/CSE.o src/Book.o src/ECE.o src/Chemical.o src/Admin.o src/Mechanical.o src/Electrical.o src/User.o src/Civil.o
+# automatic
+# ? := src/FileManagement.o src/main.o src/Student.o src/CSE.o src/Book.o src/ECE.o src/Chemical.o src/Admin.o src/Mechanical.o src/Electrical.o src/User.o src/Civil.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/18=11%
+#  recipe to execute (from 'Makefile', line 74):
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Chemical.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Student.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/ECE.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/User.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/FileManagement.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Mechanical.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Book.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
+	./$(OUTPUTMAIN)
+	@echo Executing 'run: all' complete!
+
+.cpp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $<  -o $@
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 85):
+	$(RM) $(OUTPUTMAIN)
+	$(RM) $(call FIXPATH,$(OBJECTS))
+	@echo Cleanup complete!
+
+output:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 71):
+	$(MD) $(OUTPUT)
+
+# Not a target:
+src/Civil.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/CSE.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-07 07:38:56
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=0/53=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 67 / storage = 651 B / avg = 9 B
+# current buf: size = 8174 B / used = 651 B / count = 67 / avg = 9 B
+
+# strcache performance: lookups = 87 / hit rate = 22%
+# hash-table stats:
+# Load=67/8192=1%, Rehash=0, Collisions=2/87=2%
+# Finished Make data base on Thu Dec 09 22:32:03 2021
+
+ 

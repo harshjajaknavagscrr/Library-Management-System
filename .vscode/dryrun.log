@@ -1,0 +1,19 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Library Management System'
+mkdir output
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/FileManagement.cpp  -o src/FileManagement.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/main.cpp  -o src/main.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/Student.cpp  -o src/Student.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/CSE.cpp  -o src/CSE.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/Book.cpp  -o src/Book.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/ECE.cpp  -o src/ECE.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/Chemical.cpp  -o src/Chemical.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/Admin.cpp  -o src/Admin.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/Mechanical.cpp  -o src/Mechanical.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/Electrical.cpp  -o src/Electrical.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/User.cpp  -o src/User.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/Civil.cpp  -o src/Civil.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -o output\main.exe src/FileManagement.o src/main.o src/Student.o src/CSE.o src/Book.o src/ECE.o src/Chemical.o src/Admin.o src/Mechanical.o src/Electrical.o src/User.o src/Civil.o  -Llib
+echo Executing 'all' complete!
+make.exe: Leaving directory 'c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Library Management System'
+ 

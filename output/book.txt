@@ -1,0 +1,6 @@
+CSE2 Django William George 600 0 Beginners
+CSEP Python Allen Downey 400 0 Learning
+CSE1 Java Brian-Goetz Goetz 700 0 Practice
+ECE3 Electronics Doug-Lowe Lowe 550 0 Intermediate
+Civil5 Civil Pawan Praveen 450 0 Practice
+Mechanical4 Mechanical Gorge Arihant 600 0 High-Level
