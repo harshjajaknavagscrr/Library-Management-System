@@ -13,14 +13,21 @@ For the project demo, have a look at the image slider below.
 
 # Output
 
-<div align="center"> <h3>ADMIN INTERFACE <=======================> STUDENT INTERFACE </h3> </div>
+<div align="center"> <h3>ADMIN INTERFACE </h3> </div>
    
-<img src="images/LMS.PNG" width="500"/>   <img src="images/LMS.PNG" width="500"/>
-<img src="images/LMS_Admin_Page.PNG" width="500"/>  <img src="images/LMS_Student_Page.PNG" width="500"/>
-<img src="images/LMS_Admin_login.PNG" width="500"/>  <img src="images/LMS_Student_Login_Page.PNG" width="500"/>
-<img src="images/LMS_Login_Successful.PNG" width="500"/>  <img src="images/LMS_Login_Successful.PNG" width="500"/>
-<img src="images/LMS_Admin_Menu_Page.PNG" width="500"/>  <img src="images/LMS_Student_Menu_Page.PNG" width="500"/>
+<img src="images/LMS.PNG" width="1000"/>   
+<img src="images/LMS_Admin_Page.PNG" width="1000"/>  
+<img src="images/LMS_Admin_login.PNG" width="800"/>  
+<img src="images/LMS_Login_Successful.PNG" width="800"/> 
+<img src="images/LMS_Admin_Menu_Page.PNG" width="800"/>  
  
+ <div align="center"> <h3>STUDENT INTERFACE </h3> </div>
+ 
+<img src="images/LMS.PNG" width="800"/>
+<img src="images/LMS_Student_Page.PNG" width="800"/>
+<img src="images/LMS_Student_Login_Page.PNG" width="800"/>
+<img src="images/LMS_Login_Successful.PNG" width="800"/>
+<img src="images/LMS_Student_Menu_Page.PNG" width="800"/>
  
 
 
@@ -28,7 +35,7 @@ For the project demo, have a look at the image slider below.
  - C++ IDE
    - [VS Code (Visual Studio Code)](https://code.visualstudio.com/docs/?dv=win)
    - Install following extensions : -
-      -  C/C++
+      - C/C++
       - Code runer
       - C/C++ Makefile Project 
     - Go to manage setting and open Command Palette -type create c++ project and select folder for creating project.
