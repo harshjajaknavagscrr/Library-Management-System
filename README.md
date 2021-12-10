@@ -14,20 +14,24 @@ For the project demo, have a look at the image slider below.
 # Output
 
 <div align="center"> <h3>ADMIN INTERFACE </h3> </div>
-   
-<img src="images/LMS.PNG" width="1000"/>   
-<img src="images/LMS_Admin_Page.PNG" width="1000"/>  
+  
+<div align="center">
+<img src="images/LMS.PNG" width="800"/>   
+<img src="images/LMS_Admin_Page.PNG" width="800"/>  
 <img src="images/LMS_Admin_login.PNG" width="800"/>  
 <img src="images/LMS_Login_Successful.PNG" width="800"/> 
 <img src="images/LMS_Admin_Menu_Page.PNG" width="800"/>  
+</div>
  
  <div align="center"> <h3>STUDENT INTERFACE </h3> </div>
- 
+
+<div align="center">
 <img src="images/LMS.PNG" width="800"/>
 <img src="images/LMS_Student_Page.PNG" width="800"/>
 <img src="images/LMS_Student_Login_Page.PNG" width="800"/>
 <img src="images/LMS_Login_Successful.PNG" width="800"/>
 <img src="images/LMS_Student_Menu_Page.PNG" width="800"/>
+</div>
  
 
 
