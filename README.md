@@ -9,6 +9,38 @@ For the project demo, have a look at the image slider below.
 
 
 ## Features
+- **Users**
+    - Username
+    - Password
+
+
+- **Types of user**
+    - Admin
+    - Student
+
+
+- **Admin**
+     - Admin Register account or Signup (with username,password)
+     - Admin Login (with username,password)
+     - Add Books
+     - Delete Book
+     - Modify Book
+     - View Books (Get list of all books)
+     - View Book's Information (Individual Book details)
+
+- **Student**
+     - Student Register account or Signup (with username, password)
+     - Student Login (with username, password)
+     - View Books (Get list of all books)
+     - View Book's Information (Individual Book details)
+     - Borrow Book (using Book's Number)
+     - Return Book
+
+- **Key Points**
+     - **OOPs Concepts : Inheritance, Polymorphism, Access specifiers etc**.
+     - **File Handling** to store user and books data.
+
+
 
 
 # Output
