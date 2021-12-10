@@ -1,11 +1,56 @@
 # Library Management System
-Library management system C++ project using oops concepts: Inheritance, Polymorphism, Access specifiers etc. And  file handling to store user and books data.
+
+Library Management System is a software which handles the entire data of library.
 
 
 # About Project
 
-In order to run this project, you must have installed **VS Code** on your PC.(We recommend these IDE).
-For the project demo, have a look at the image slider below.
+In this project,We have two type of Users first Admin and second Student.Admin can add books, delete books, modify books, get list of all books and also view individual book details.Student can also view the list of all books, view individual book details, borrow book and return book. So we have created a menu to select a user whether he/she is an Admin or Student.
+Both user can register with username and password.So we have created separate register page for Admins and Students.
+Both user can login with username and password which will give them access to the library management system.So we have created separate login page for Admins and Students.
+
+This project uses file handling to store the data of users and books.All the information added or removed will be updated in the database.
+
+<h4>Code Explanation (Inheritance, Polymorphism)</h4>
+
+- I have created the Book class as a base class, and then derived a new class, and FileManagement class, used to store various information, in this program, I still use file storage. In the process of adding, deleting, modifying, and checking books and the program will modify the information in the text file accordingly.
+
+- Then in order to distinguish different users for different operations, the user initially logs in, and the system distinguishes users with different roles according to the user’s account to enter different user interfaces.This function can use virtual functions to achieve polymorphism.
+
+- Admin can add books, delete books, modify books, get list of all books and also view individual book details.
+- Student can also view the list of all books, view individual book details, borrow book and return book.
+
+- The description of the class is as follows:-
+
+  - User class save the user's account and password attributes (private), and provide corresponding set and get methods, and the following functions:-
+     - viewBooks(vector<Book *> Books) - View all book information
+     - viewBookInfo() - View book information
+     - Register(string account, string password) - Different user Register
+     - Login()  - Different user login
+     - display() - Show different user interfaces
+   
+  - Student inherits from User, rewrite display(), and add the following functions:-
+  
+     - BorrowBook() -  To issue book from Library.
+     - ReturnBook() -  The function of returning the book.
+   
+  - Admin also inherits from User, rewrite display(), and add the following functions:-
+     - addBook()    - Add books in Library.
+     - deleteBook() - Delete book from Library.
+     - reSetBook()  - Modify book.
+    
+   - Book is the base class of all book classes, with various properties of the book, and provides corresponding set, get methods and virtual functions toString().
+   - CSE, ECE, Electrical, Mechanical, Chemical and Civil inherit from Book, and rewrite toString().
+   - Five types of FileManagement:-
+   
+     - void saveUserInfo(map<string, string> &accounts) - To store user data in the database.
+     - map<string, string> getPeopleInfo() - is responsible for reading the user file user.txt information.
+     - vector<Book *> getBooks() -  is responsible for reading the book information file book.txt.
+     - void saveBooks(vector<Book *> vec) -  save the modifications to the book information.
+     - Book * getObject(string ID) -  according to the ID information of the book, return the corresponding type of object pointer.
+
+
+In order to run this project, you must have installed **VS Code** on your PC.(We recommend these IDE).For the project demo, have a look at the image slider below.
 
 
 ## Features
