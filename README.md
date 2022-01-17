@@ -2,6 +2,8 @@
 
 Library Management System is a software which handles the entire data of library.
 
+Designed and developed Library Management System consisting the **Student portal and Admin portal**.
+
 
 # About Project
 
